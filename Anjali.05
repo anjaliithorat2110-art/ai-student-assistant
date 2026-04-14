@@ -1,0 +1,17 @@
+app.py
+import streamlit as st
+
+st.title("Smart AI Assistant 🤖")
+
+st.write("This is your AI chatbot and PDF summarizer project")
+
+chatbot.py
+def ask_ai(question):
+    return "This is a sample AI response"
+
+pdf_summarizer.py
+def summarize_pdf(file):
+    return "This is a sample summary"
+
+requirements.txt
+streamlit
